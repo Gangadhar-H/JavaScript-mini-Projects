@@ -1,0 +1,77 @@
+/* Reset some basic styles */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the container */
+.container {
+    background-color: #bdbdbd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+
+/* Style the input container */
+.input-container {
+    margin-bottom: 20px;
+}
+
+/* Style the input field */
+#city-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Style the button */
+#get-weather-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Change button color on hover */
+#get-weather-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the weather info section */
+#weather-info {
+    margin-top: 20px;
+}
+
+/* Style the error message */
+#error-message {
+    color: red;
+    margin-top: 20px;
+}
+
+/* Hide elements with the 'hidden' class */
+.hidden {
+    display: none;
+}
