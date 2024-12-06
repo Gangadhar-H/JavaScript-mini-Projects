@@ -1,4 +1,4 @@
-import API_KEY from "./api.js";
+import API_KEY from './api.js';
 document.addEventListener('DOMContentLoaded', () => {
     let cityInput = document.getElementById("city-input");
     let getWeatherBtn = document.getElementById("get-weather-btn");
