@@ -1,3 +1,4 @@
+import API_KEY from "./api.js";
 document.addEventListener('DOMContentLoaded', () => {
     let cityInput = document.getElementById("city-input");
     let getWeatherBtn = document.getElementById("get-weather-btn");
@@ -7,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let descriptionDisplay = document.getElementById("description");
     let errorMessage = document.getElementById("error-message");
 
-    const API_KEY = "fd5e9b86d5da7b173e684773c3e54b4e";
+
 
 
     getWeatherBtn.addEventListener('click', async () => {
